@@ -1,0 +1,150 @@
+*{
+    background-color: rgb(15, 15, 14);
+    font-family:verdana;
+}
+
+p, h2, h3 {
+    background: none;
+    padding: 0%;
+}
+
+ul {
+    display:flex;
+    list-style-type: none;
+    overflow: hidden;
+    font-size:large;
+    margin: auto;
+    align-items: center;
+    min-width: 400px;
+}
+
+li{
+    float:none;
+    padding:0;
+    text-decoration: none;
+    border:none;
+    background-color:darkgoldenrod;
+    margin: 5px;
+    position:relative;
+}
+
+li a {
+    justify-content: center;
+    padding:4px 25px;
+    background-color: darkgoldenrod;
+    margin: 0;
+    text-decoration: none;
+    text-align: center;
+    display:flex;
+    color: rgb(0, 0, 0);
+}
+
+li a:hover {
+    background-color:goldenrod;
+    display:flex;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    text-decoration-line: overline;
+    text-decoration-color: rgb(241, 178, 2);
+    color: white;
+}
+
+.conteiner {    
+    display: grid;
+}
+
+.sobre {
+    display:flex;
+    color: beige;
+    justify-content: center;
+    margin: 50px 200px;
+    text-align: justify;
+    font-size: large;
+}
+
+.paginaAtual {
+    text-decoration: underline overline;
+    text-underline-position: under;
+}
+
+.paginaAtual > a {
+    background-color:rgb(238, 217, 30);
+}
+
+.conteudo {
+    background-image: url(wallpaper3.jpg);
+    background-size:80% 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: center;
+    min-width:700px;
+    min-height: 400px;
+    padding: 50px 200px;
+    font-size: large;
+    text-wrap: nowrap;
+    display:block;
+    position: static;
+}
+
+.conteudo > p h2 a{
+    text-align: right;
+    min-width: 200px;
+    max-width: max-content;
+}
+
+.textDestaque {
+    text-decoration: underline;
+    font-size: x-large;
+    background: none;
+    padding: 0;
+}
+
+.botao {
+    border-radius: 10% 30%;
+    background-color: rgb(223, 137, 8);
+    border: 2px solid rgb(2, 2, 2);
+    text-align: center;
+    font-size: larger;
+    text-decoration: none;
+    padding: 20px 150px;
+    text-decoration: none;
+    color: black;
+}
+
+.botao:hover {
+    background-color:rgb(255, 200, 62);
+    text-decoration: none;
+}
+
+.info {
+    border-radius: 20px;
+    padding: 40px;
+    background-color:  rgb(15, 15, 14);
+    border: 3px solid rgb(223, 137, 8);
+}
+
+#Enviar{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    border-radius: 10px;
+    border: 2px solid rgb(223, 137, 8);
+    background-color: goldenrod;
+}
+
+#Enviar:hover {
+    background-color:rgb(255, 200, 62);
+}
+
+#Enviar:active {
+    background-color:rgb(126, 98, 29);
+}
+
+.uninter {
+    text-decoration: none;
+    font-size: larger;
+}
